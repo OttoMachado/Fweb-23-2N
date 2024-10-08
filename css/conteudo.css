@@ -48,3 +48,10 @@ background-image: url(../img/mario.jpeg);
     
 }
 
+.menu-conteudo li ul{
+    display: none; /*no mouse aparece*/
+}
+
+.menu-conteudo li:hover ul{
+    display: block; /*no mouse aparece*/
+}
