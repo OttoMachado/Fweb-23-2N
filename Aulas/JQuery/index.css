@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .carrossel {
+    margin-top: 300px;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .carrossel-wrapper {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carrossel-item {
+    min-width: 300px;
+    text-align: center;
+    padding: 40px 0;
+    background: darkcyan;
+    border-right: 1px solid #ddd;
+  }
