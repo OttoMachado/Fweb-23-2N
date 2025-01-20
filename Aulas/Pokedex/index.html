@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedéx</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="playMusic()">
+    <audio id="bgmusic" autoplay loop> 
+        <source src="audio/Lavender TownSomBOM.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <main>
+        <figure id="imgPokedex">
+            <img src="./img/Cópia de pokedex.png" alt="Imagem da Pokedéx">
+        </figure>
+        <figure id="pokemonFigure">
+            <img id="imgPokemon" src="" alt="imagem do pokemon">
+        </figure>
+
+        <h1 id="tituloTipo">
+            <span id="tipo1">Tipo1</span>
+            <span id="tipo2">Tipo2</span>
+        </h1>
+        <h1 id="tituloNome">
+            <span id="idPokemon">ID:</span>
+            <span id="nomePokemon">Nome-Pokemon</span>
+        </h1>
+        <form id="formID">
+            <input id="inputNome" type="text" placeholder="Digite o nº ou nome">
+        </form>
+        <h1 id="tituloProporcoes">
+            <div id="pesoPokemon">Peso</div>
+            <div id="alturaPokemon">Altura</div>
+        </h1>
+        <div id="botoesProxAnt">
+            <button id="buttonLast">Anterior</button>
+            <button id="buttonNext">Próximo</button>
+        </div>
+        <audio id="audioPokemon" src="" autoplay></audio>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

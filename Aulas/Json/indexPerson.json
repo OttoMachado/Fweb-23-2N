@@ -1,0 +1,38 @@
+{
+    "persona1":{
+        "nome":"Rafael",
+        "idade":"2",
+        "cpf":"123",
+        "telefone":"40028922"
+
+    },
+
+    "persona2":{
+        "nome":"clara",
+        "idade":"70",
+        "cpf":"321",
+        "telefone":"32864290"
+
+    },
+    "persona3":{
+        "nome":"joao",
+        "idade":"22",
+        "cpf":"56",
+        "telefone":"32174200"
+
+    },
+    "persona4":{
+        "nome":"cabral",
+        "idade":"25",
+        "cpf":"354",
+        "telefone":"86153974"
+
+    },
+    "persona5":{
+        "nome":"carla",
+        "idade":"27",
+        "cpf":"152",
+        "telefone":"72895102"
+
+    }
+}
