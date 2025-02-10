@@ -1,0 +1,27 @@
+body{
+    background-color: #484848;
+    margin-left: 700px;
+}
+
+.texto{
+    color:whitesmoke;
+    position: absolute;
+    margin-top: 450px;
+}
+
+.foto{
+    background-image: url(../minha\ foto.jpg);
+    width:  330px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.linha{
+    background-color: #2e2e2e;
+    width: 2000x;
+    height: 100px;
+    margin-left: -700px;
+    position: absolute;
+}
