@@ -1,58 +1,118 @@
-html{
-    width: 100%;
-    height: 100%;
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-body{
-    font-family: sans-serif;
-    width: 100%;
-    height: 100%;
-    background-color: gray;
+
+body {
+    background-color: #3c3c3c;
+    color: whitesmoke;
+    line-height: 1.6;
 }
 
-.busca{
-    background-color: #2e2e2e;
-font-weight: bold;
-text-transform: uppercase;
-width: 230px;
-margin-right: 10px;
-float: left;
-}
-.menu-conteudo{
-background-color: #2e2e2e;;
-font-weight: bold;
-text-transform: uppercase;
-width: 230px;
-margin-right: 10px;
-float: left;
+.container {
+    width: 90%;
+    max-width: 1200px;
 }
 
-.menu-conteudo li{
-background-color: #2e2e2e;
-margin-bottom: 5px;
-padding: 5px 10px;
+
+header {
+    background: #3c3c3c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-left: -200px;
 }
 
-.menu-conteudo{
-clear:left;
+header h1 {
+    font-size: 24px;
 }
 
-.busca{
-vertical-align: middle;
+.menu-opcoes ul {
+    list-style: none;
 }
 
-h1{
-
+.menu-opcoes ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-.footer img{
-    
+.menu-opcoes ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.menu-conteudo li ul{
-    display: none; /*no mouse aparece*/
+.menu-opcoes ul li a:hover {
+    text-decoration: underline;
 }
 
-.menu-conteudo li:hover ul{
-    display: block; /*no mouse aparece*/
+
+.busca {
+    background: black;
+    padding: 15px;
 }
+
+.busca h2 {
+    margin-bottom: 10px;
+}
+
+.busca input[type="search"] {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.busca button {
+    padding: 8px 15px;
+    border: none;
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.busca button:hover {
+    background: #2980b9;
+}
+
+
+.menu-conteudo {
+    background: black;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.menu-conteudo h2 {
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+.menu-conteudo ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-conteudo ul li {
+    background: black;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-conteudo ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.menu-conteudo ul li a:hover {
+    color: #3498db;
+}
+
+
